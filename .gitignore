@@ -58,4 +58,8 @@ crashlytics-build.properties
 *.bak
 *.old
 *.orig
-*.save 
+*.save
+
+*.shader
+*.cginc
+ 
