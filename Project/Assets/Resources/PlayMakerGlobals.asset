@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48b87803bb2e8c049ab4f4cca51d6d37, type: 3}
+  m_Script: {fileID: 11500000, guid: 80f3332ce2fd6224c8cfcb03e653f74b, type: 3}
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier:
   variables:
@@ -32,6 +32,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 100
+    - useVariable: 1
+      name: EnemyHealth2
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 100
+    - useVariable: 1
+      name: EnemyHealth3
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 100
     boolVariables: []
     stringVariables: []
     vector2Variables: []
@@ -47,7 +59,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs:
+    variableCategoryIDs: 0000000000000000000000000000000000000000
   events:
   - StartFSM
   - Restart

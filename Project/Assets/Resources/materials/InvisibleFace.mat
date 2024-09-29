@@ -7,7 +7,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: InvisibleFace
-  m_Shader: {fileID: 4800000, guid: fd75d8dc5a444bb49afb78276d77b5aa, type: 3}
+  m_Shader: {fileID: 4800000, guid: c98fdde2d3934da468fcf4331d9ef8fe, type: 3}
   m_ShaderKeywords:
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0

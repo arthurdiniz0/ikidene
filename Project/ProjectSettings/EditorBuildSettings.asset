@@ -5,9 +5,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b62d01638cd43b445b808ade8c08c28c
+  - enabled: 1
     path: Assets/Scenes/Inicio.unity
-    guid: e3494afb7ff40a245aae9e7ec0e3682d
+    guid: 6b927347893067548a27b27b35ce51d1
   - enabled: 1
     path: Assets/Scenes/Floresta.unity
-    guid: 2e0bdeb7b798b624a9a669f263da34fa
+    guid: 3bfba58c6a36178428f26ebf9331bd28
+  - enabled: 1
+    path: Assets/Scenes/Floresta2.unity
+    guid: ad7fb5d0c74f5e14f9fbec2f15c17778
+  - enabled: 1
+    path: Assets/Scenes/LastScene.unity
+    guid: 227672e5a0a963b429cc67771ae4dc27
   m_configObjects: {}

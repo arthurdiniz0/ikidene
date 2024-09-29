@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: bf27b915d46352e4dbf9e8931ee01579
-timeCreated: 1727656744
+guid: bc6b3bc1f5834e34d9bfcd77dc3be616
+timeCreated: 1727656041
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -106,7 +106,7 @@ TextureImporter:
         - {x: 12.493, y: 10.5}
       tessellationDetail: 0
       bones: []
-      spriteID: 344475c8921049a2bd6e41d9e55f215e
+      spriteID: a2705c17aad64e22ba20acf4286d4c1c
       vertices: []
       indices:
       edges: []

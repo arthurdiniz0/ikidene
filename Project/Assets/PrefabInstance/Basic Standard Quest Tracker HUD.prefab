@@ -3,22 +3,22 @@
 --- !u!1001 &100100000
 PrefabInstance:
   serializedVersion: 2
-  m_RootGameObject: {fileID: 1592847810843527}
+  m_RootGameObject: {fileID: 1283907306539781}
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
---- !u!1 &1592847810843527
+--- !u!1 &1283907306539781
 GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224743436365269821}
-  - component: {fileID: 222222247841779875}
-  - component: {fileID: 114149557055043518}
+  - component: {fileID: 224307737713286105}
+  - component: {fileID: 222474554836973022}
+  - component: {fileID: 114192971334806900}
   m_Layer: 5
   m_Name: Basic Standard Quest Tracker HUD
   m_TagString: Untagged
@@ -26,17 +26,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224743436365269821
+--- !u!224 &224307737713286105
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592847810843527}
+  m_GameObject: {fileID: 1283907306539781}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 224202876090885468}
+  - {fileID: 224442342563220125}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45,41 +45,41 @@ RectTransform:
   m_AnchoredPosition: {x: -4, y: -4}
   m_SizeDelta: {x: -8, y: -8}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &222222247841779875
+--- !u!222 &222474554836973022
 CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592847810843527}
---- !u!114 &114149557055043518
+  m_GameObject: {fileID: 1283907306539781}
+--- !u!114 &114192971334806900
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592847810843527}
+  m_GameObject: {fileID: 1283907306539781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77897a4cc7803cc4380d8936a0623c34, type: 3}
+  m_Script: {fileID: 11500000, guid: 46282fa5da4a2114bb4bf04342dca849, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   playerPrefsToggleKey: QuestTracker
-  container: {fileID: 224202876090885468}
+  container: {fileID: 224442342563220125}
   showContainerIfEmpty: 1
-  questTrackTemplate: {fileID: 114433202169086473}
+  questTrackTemplate: {fileID: 114143136911829013}
   showActiveQuests: 1
   showCompletedQuests: 0
   showCompletedEntryText: 0
   questDescriptionSource: 0
   visibleOnStart: 1
---- !u!1 &1049227582399772
+--- !u!1 &1876200383720397
 GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224202876090885468}
-  - component: {fileID: 114962195354722389}
+  - component: {fileID: 224442342563220125}
+  - component: {fileID: 114321570174544411}
   m_Layer: 5
   m_Name: Vertical Group
   m_TagString: Untagged
@@ -87,18 +87,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224202876090885468
+--- !u!224 &224442342563220125
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049227582399772}
+  m_GameObject: {fileID: 1876200383720397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 224455530730400778}
-  m_Father: {fileID: 224743436365269821}
+  - {fileID: 224157996656155298}
+  m_Father: {fileID: 224307737713286105}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
@@ -106,12 +106,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 256, y: 0}
   m_Pivot: {x: 1, y: 1}
---- !u!114 &114962195354722389
+--- !u!114 &114321570174544411
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049227582399772}
+  m_GameObject: {fileID: 1876200383720397}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -128,19 +128,19 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
---- !u!1 &1201024694191477
+--- !u!1 &1408901178479723
 GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224455530730400778}
-  - component: {fileID: 114344346390176747}
-  - component: {fileID: 114857941895611849}
-  - component: {fileID: 222893069179778439}
-  - component: {fileID: 114250500091580524}
-  - component: {fileID: 114433202169086473}
+  - component: {fileID: 224157996656155298}
+  - component: {fileID: 114118950257868638}
+  - component: {fileID: 114765458821056404}
+  - component: {fileID: 222724931964960671}
+  - component: {fileID: 114326829278304424}
+  - component: {fileID: 114143136911829013}
   m_Layer: 5
   m_Name: Quest Track Template
   m_TagString: Untagged
@@ -148,19 +148,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224455530730400778
+--- !u!224 &224157996656155298
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201024694191477}
+  m_GameObject: {fileID: 1408901178479723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -256, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 224463153207119907}
-  - {fileID: 224802077715660638}
-  m_Father: {fileID: 224202876090885468}
+  - {fileID: 224638251644918822}
+  - {fileID: 224741201490288095}
+  m_Father: {fileID: 224442342563220125}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -168,12 +168,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &114344346390176747
+--- !u!114 &114118950257868638
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201024694191477}
+  m_GameObject: {fileID: 1408901178479723}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -190,12 +190,12 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
---- !u!114 &114857941895611849
+--- !u!114 &114765458821056404
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201024694191477}
+  m_GameObject: {fileID: 1408901178479723}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -209,18 +209,18 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!222 &222893069179778439
+--- !u!222 &222724931964960671
 CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201024694191477}
---- !u!114 &114250500091580524
+  m_GameObject: {fileID: 1408901178479723}
+--- !u!114 &114326829278304424
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201024694191477}
+  m_GameObject: {fileID: 1408901178479723}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -233,7 +233,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0051e6caf0c35004da98cb5ef5370e85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4a7e589d6588bf4ba2d2a06c8464a1c, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -242,19 +242,19 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114433202169086473
+--- !u!114 &114143136911829013
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201024694191477}
+  m_GameObject: {fileID: 1408901178479723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaa9d5792008ee549b6b8903fb3956e4, type: 3}
+  m_Script: {fileID: 11500000, guid: db5e67dd289924f428ff1de5a39091b5, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   description:
-    m_uiText: {fileID: 114314355641334915}
+    m_uiText: {fileID: 114590974832690440}
   alternateDescriptions:
     successDescription:
       m_uiText: {fileID: 0}
@@ -262,24 +262,24 @@ MonoBehaviour:
       m_uiText: {fileID: 0}
   entryContainer: {fileID: 0}
   entryDescription:
-    m_uiText: {fileID: 114328983698930501}
+    m_uiText: {fileID: 114110952417405735}
   alternateEntryDescriptions:
     successDescription:
       m_uiText: {fileID: 0}
     failureDescription:
       m_uiText: {fileID: 0}
---- !u!1 &1383398768207220
+--- !u!1 &1419613585882233
 GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224463153207119907}
-  - component: {fileID: 222700703273250055}
-  - component: {fileID: 114314355641334915}
-  - component: {fileID: 114436094107068863}
-  - component: {fileID: 114492100800874345}
+  - component: {fileID: 224638251644918822}
+  - component: {fileID: 222748636036594370}
+  - component: {fileID: 114590974832690440}
+  - component: {fileID: 114912559477561821}
+  - component: {fileID: 114302279623445225}
   m_Layer: 5
   m_Name: Quest Description
   m_TagString: Untagged
@@ -287,17 +287,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224463153207119907
+--- !u!224 &224638251644918822
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383398768207220}
+  m_GameObject: {fileID: 1419613585882233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224455530730400778}
+  m_Father: {fileID: 224157996656155298}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -305,18 +305,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &222700703273250055
+--- !u!222 &222748636036594370
 CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383398768207220}
---- !u!114 &114314355641334915
+  m_GameObject: {fileID: 1419613585882233}
+--- !u!114 &114590974832690440
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383398768207220}
+  m_GameObject: {fileID: 1419613585882233}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -343,12 +343,12 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Quest Description
---- !u!114 &114436094107068863
+--- !u!114 &114912559477561821
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383398768207220}
+  m_GameObject: {fileID: 1419613585882233}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -362,12 +362,12 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &114492100800874345
+--- !u!114 &114302279623445225
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383398768207220}
+  m_GameObject: {fileID: 1419613585882233}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -376,18 +376,18 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!1 &1571741088237536
+--- !u!1 &1282630412079560
 GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224802077715660638}
-  - component: {fileID: 222299775507567068}
-  - component: {fileID: 114328983698930501}
-  - component: {fileID: 114711589327087352}
-  - component: {fileID: 114997199469749317}
+  - component: {fileID: 224741201490288095}
+  - component: {fileID: 222789364762482111}
+  - component: {fileID: 114110952417405735}
+  - component: {fileID: 114749263461210249}
+  - component: {fileID: 114381205249508478}
   m_Layer: 5
   m_Name: Quest Entry Description
   m_TagString: Untagged
@@ -395,17 +395,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224802077715660638
+--- !u!224 &224741201490288095
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571741088237536}
+  m_GameObject: {fileID: 1282630412079560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224455530730400778}
+  m_Father: {fileID: 224157996656155298}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -413,18 +413,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &222299775507567068
+--- !u!222 &222789364762482111
 CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571741088237536}
---- !u!114 &114328983698930501
+  m_GameObject: {fileID: 1282630412079560}
+--- !u!114 &114110952417405735
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571741088237536}
+  m_GameObject: {fileID: 1282630412079560}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -451,12 +451,12 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Quest Entry Descriptions
---- !u!114 &114711589327087352
+--- !u!114 &114749263461210249
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571741088237536}
+  m_GameObject: {fileID: 1282630412079560}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -470,12 +470,12 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &114997199469749317
+--- !u!114 &114381205249508478
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 100100000}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571741088237536}
+  m_GameObject: {fileID: 1282630412079560}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}

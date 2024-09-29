@@ -7,7 +7,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FantasyHero_01
-  m_Shader: {fileID: 4800000, guid: 67c2ca8454a3ac0438c1a2739f83babe, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3c4d1fa78887f144faee231a27b0b9b3, type: 3}
   m_ShaderKeywords:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,55 +19,55 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Mask_Primary:
-        m_Texture: {fileID: 2800000, guid: 60a4b661124187d4aba06e41e6fdf2b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 747ee92bb85e32e49af1ba698f041545, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_Secondary:
-        m_Texture: {fileID: 2800000, guid: 9682e7d57f681a84c9b3824ce026e80b, type: 3}
+        m_Texture: {fileID: 2800000, guid: bee99f35e2f40aa42ac90a1bae4af60d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: e8a849aecfd370144b91c2e22af57c64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0164e7f8de093e5479fc9ecb8bde90fc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Base_Primary:
-        m_Texture: {fileID: 2800000, guid: fcf60a9e8e8b92a4c81a873f091f820d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4fbac3638ae0e424ebd39bfe01ea1b65, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Base_Secondary:
-        m_Texture: {fileID: 2800000, guid: a59384835fa393b4eac7c62698affdd9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 46b1215bc2e301944bb04c746b63d8f9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_BodyArt:
-        m_Texture: {fileID: 2800000, guid: 5ba5316e25b53754c9b454de4b26f2e1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9664df0fcca889a46aa380afdf03d980, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Color_Metal_Dark:
-        m_Texture: {fileID: 2800000, guid: 25f4a793e6cc4284aa82084c24053bdc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 68f6133862a3f9748acb90e648ce3d2e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Color_Metal_Primary:
-        m_Texture: {fileID: 2800000, guid: ecffd4f61371cd649b7bbf7fb1735513, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8a1473419a248ed44be64c86e70d7654, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Hair:
-        m_Texture: {fileID: 2800000, guid: 92b98f7ca1d65e34487badb5a97cac88, type: 3}
+        m_Texture: {fileID: 2800000, guid: 345564acd651f8e41ab31a284fb308f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Metal_Secondary:
-        m_Texture: {fileID: 2800000, guid: 39c1b8bae998eff408ae8f2113d037de, type: 3}
+        m_Texture: {fileID: 2800000, guid: 194ba490d0767594e82955a25bc9b062, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Scar:
-        m_Texture: {fileID: 2800000, guid: e0e19c2ec4f12a243af5b29b06e68cb8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 45a4e755bece11f458129030e240e852, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Skin:
-        m_Texture: {fileID: 2800000, guid: 5056054bd83baa94dad2181535e47fa8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 720eab821a3387e4b9555d7c5b50140e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Stubble:
-        m_Texture: {fileID: 2800000, guid: 735dd74c2dceed546b627a924c1673f7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1ce7be652cd091945a98c6f278204bb2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:

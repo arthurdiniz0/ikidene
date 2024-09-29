@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: f0f405f6e7444cd429869d3fb5816933
-timeCreated: 1727656751
+guid: 45961d1c583b014469d71e036c73ace5
+timeCreated: 1727656045
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -91,7 +91,7 @@ TextureImporter:
       - {x: 25, y: 62}
       - {x: 18, y: 64}
     bones: []
-    spriteID: 91a35534800a4111974995ba0728d006
+    spriteID: 6b26a0af10334b559d81b33679702312
     vertices: []
     indices:
     edges: []

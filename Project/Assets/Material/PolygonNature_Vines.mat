@@ -7,7 +7,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PolygonNature_Vines
-  m_Shader: {fileID: 4800000, guid: b5f636058c5d97a46901d1442de897ec, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6f1d76e45a0c33d43be5b0e14385f43e, type: 3}
   m_ShaderKeywords:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,11 +19,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: d3def87322fccaa4bba1c5e14b9b728e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2304983067fe07c499032e4ba932191e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: bf3b0efa12cd34341b06668b4e80bab6, type: 3}
+        m_Texture: {fileID: 2800000, guid: c1946fd4c97ef464e99c37a374fde841, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
