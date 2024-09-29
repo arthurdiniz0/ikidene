@@ -1,0 +1,11 @@
+using DarkTonic.CoreGameKit;
+
+public class WaveSyncroSpawnerPlaymakerListener : WaveSyncroSpawnerListener
+{
+	public CGKPlaymakerUtility.PlaymakerEventSetting itemFailedToSpawnSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting itemSpawnedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveFinishedSpawningSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveStartSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveRepeatSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting elimWaveCompleteSetting;
+}

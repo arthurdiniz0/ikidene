@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FantasyHero_01
+  m_Shader: {fileID: 4800000, guid: 67c2ca8454a3ac0438c1a2739f83babe, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Mask_Primary:
+        m_Texture: {fileID: 2800000, guid: 60a4b661124187d4aba06e41e6fdf2b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Secondary:
+        m_Texture: {fileID: 2800000, guid: 9682e7d57f681a84c9b3824ce026e80b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: e8a849aecfd370144b91c2e22af57c64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Base_Primary:
+        m_Texture: {fileID: 2800000, guid: fcf60a9e8e8b92a4c81a873f091f820d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Base_Secondary:
+        m_Texture: {fileID: 2800000, guid: a59384835fa393b4eac7c62698affdd9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_BodyArt:
+        m_Texture: {fileID: 2800000, guid: 5ba5316e25b53754c9b454de4b26f2e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Color_Metal_Dark:
+        m_Texture: {fileID: 2800000, guid: 25f4a793e6cc4284aa82084c24053bdc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Color_Metal_Primary:
+        m_Texture: {fileID: 2800000, guid: ecffd4f61371cd649b7bbf7fb1735513, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Hair:
+        m_Texture: {fileID: 2800000, guid: 92b98f7ca1d65e34487badb5a97cac88, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Metal_Secondary:
+        m_Texture: {fileID: 2800000, guid: 39c1b8bae998eff408ae8f2113d037de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Scar:
+        m_Texture: {fileID: 2800000, guid: e0e19c2ec4f12a243af5b29b06e68cb8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Skin:
+        m_Texture: {fileID: 2800000, guid: 5056054bd83baa94dad2181535e47fa8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Stubble:
+        m_Texture: {fileID: 2800000, guid: 735dd74c2dceed546b627a924c1673f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BodyArt_Amount: 0.3885344
+    - _Smoothness: 0.2
+    - _Tattoo_Amount: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color_BodyArt: {r: 0.9254903, g: 0.882353, b: 0.8509805, a: 0}
+    - _Color_Hair: {r: 1, g: 0.5070577, b: 0.1367925, a: 0}
+    - _Color_Leather_Primary: {r: 0.282353, g: 0.2078432, b: 0.1647059, a: 0}
+    - _Color_Leather_Secondary: {r: 0.4622642, g: 0.3059823, b: 0.1635369, a: 0}
+    - _Color_Metal_Dark: {r: 0.1764706, g: 0.1960784, b: 0.2156863, a: 0}
+    - _Color_Metal_Primary: {r: 0.5568628, g: 0.5960785, b: 0.6392157, a: 0}
+    - _Color_Metal_Secondary: {r: 0.3764706, g: 0.3607843, b: 0.3372549, a: 0}
+    - _Color_Primary: {r: 0.5849056, g: 0.1950618, b: 0.1572624, a: 0}
+    - _Color_Scar: {r: 0.9294118, g: 0.6862745, b: 0.5921569, a: 0}
+    - _Color_Secondary: {r: 0.1647059, g: 0.1647059, b: 0.1647059, a: 0}
+    - _Color_Skin: {r: 1, g: 0.8000001, b: 0.682353, a: 0}
+    - _Color_Stubble: {r: 0.8039216, g: 0.7019608, b: 0.6313726, a: 0}
+    - _Color_Tertiary: {r: 0.7352941, g: 0.2000433, b: 0.2000433, a: 1}

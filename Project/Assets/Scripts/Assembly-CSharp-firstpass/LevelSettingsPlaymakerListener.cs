@@ -1,0 +1,17 @@
+using DarkTonic.CoreGameKit;
+
+public class LevelSettingsPlaymakerListener : LevelSettingsListener
+{
+	public CGKPlaymakerUtility.PlaymakerEventSetting levelEndedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveItemsRemainingChangedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveTimeRemainingChangedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting winEventSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting loseEventSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting gameOverSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveStartedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveEndedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveRestartedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveCompleteBonusesStartSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveEndedEarlySetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting waveSkippedSetting;
+}

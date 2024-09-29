@@ -1,0 +1,16 @@
+using DarkTonic.CoreGameKit;
+
+public class KillablePlaymakerListener : KillableListener
+{
+	public CGKPlaymakerUtility.PlaymakerEventSetting spawnerDestroyedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting despawningSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting takingDamageSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting damagePrefabSpawnedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting damagePrefabFailedToSpawnSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting deathPrefabSpawnedSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting deathPrefabFailedToSpawnSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting destroyingKillableSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting determiningScenarioSetting;
+	public CGKPlaymakerUtility.PlaymakerEventSetting modifyingDeathVars;
+	public CGKPlaymakerUtility.PlaymakerEventSetting modifyingDamageVars;
+}
